@@ -1,29 +1,40 @@
 .mainbox{
     background-color: coral;
-    width: 800px;
+    width: 1536px;
     margin: 0px auto;
 }
 
 .menu{
+    height: 37px;
     background-color: brown;
+    text-align: right;
+}
+
+.menu>ul>li{
+    display:inline;
+    padding: 15px;
+    position: relative;
+    top: 8px;
+    font-family: Tahoma, serif;
+    font-size: 15px;
 }
 
 .leftside{
     background-color: darkgreen;
-    width: 100px;
+    width: 512px;
     float: left;
 }
 
 
 .main{
     background-color: darkkhaki;
-    width: 600px;
+    width: 512px;
     float: left;
 }
 
 .rightside{
     background-color: aliceblue;
-    width: 100px;
+    width: 512px;
     float: left;
 }
 
