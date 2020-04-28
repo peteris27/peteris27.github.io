@@ -169,7 +169,20 @@ h1{
     width: 300px;
 }
 
-.main>h1{
+.mainabout>h1{
     font-size: 30px;
 }
+
+.mainabout>p{
+    line-height: 19px;
+}
+
+.mainabout{
+    width: 512px;
+    height: 1070px;
+    float: left;
+    padding-top: 70px;
+}
+
+
 
