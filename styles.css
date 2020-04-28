@@ -8,7 +8,7 @@
 
 .menu{
 
-    height: 130px;
+    height: 100px;
     text-align: right;
 }
 
@@ -16,7 +16,7 @@
     display:inline;
     padding: 15px;
     position: relative;
-    top: 35px;
+    top: 15px;
     font-family: Tahoma, serif;
     font-size: 23px;
     text-decoration: none;
@@ -82,7 +82,7 @@
     max-width: 160px;
     display: inline;
     position: relative;
-    top: 25px;
+    top: 15px;
     float: left;
     padding-left: 10px;
 }
@@ -159,7 +159,7 @@ h1{
 }
 
 .contactmain>img{
-    padding-top: 150px;
+    padding-top: 100px;
     max-width: 300px;
 }
 
@@ -218,7 +218,7 @@ h1{
     display:inline-block;
     padding: 15px;
     position: relative;
-    top: 35px;
+    top: 15px;
     font-size: 20px;
     font-family: Tahoma, serif;
 
@@ -264,6 +264,32 @@ h1{
 }
 
 .streetmain>img{
+    width: 600px;
+}
+
+.natureleftside{
+
+    height: 1200px;
+    width: 162px;
+    float: left;
+}
+
+.naturemain{
+
+    width: 1212px;
+    height: 1200px;
+    float: left;
+}
+
+.naturerightside{
+
+    text-align: right;
+    height: 1200px;
+    width: 162px;
+    float: left;
+}
+
+.naturemain>img{
     width: 600px;
 }
 
