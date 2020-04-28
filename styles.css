@@ -1,7 +1,6 @@
 
 
 .mainbox{
-
     width: 1536px;
     height: 1200px;
     margin: 0 auto;
@@ -17,9 +16,15 @@
     display:inline;
     padding: 15px;
     position: relative;
-    top: 50px;
+    top: 35px;
     font-family: Tahoma, serif;
     font-size: 23px;
+    text-decoration: none;
+}
+
+.menu>ul>li>a{
+    text-decoration: none;
+    color: black;
 }
 
 .leftside{
@@ -38,6 +43,7 @@
 }
 
 .mainportrait{
+
     width: 720px;
     height: 1070px;
     float: left;
@@ -171,18 +177,74 @@ h1{
 
 .mainabout>h1{
     font-size: 30px;
+    padding-bottom: 20px;
 }
 
 .mainabout>p{
-    line-height: 19px;
+    line-height: 25px;
+    font-size: 20px;
 }
 
 .mainabout{
-    width: 512px;
+    width: 812px;
     height: 1070px;
     float: left;
     padding-top: 70px;
 }
+
+.leftsideabout{
+    height: 1070px;
+    width: 362px;
+    float: left;
+}
+
+.rightsideabout{
+    text-align: right;
+    height: 1200px;
+    width: 362px;
+    float: left;
+}
+
+
+.dropbtn{
+    border: none;
+    background:none;
+    outline: none;
+    font-size: 23px;
+    font-family: Tahoma, serif;
+}
+
+.dropbtn:hover{
+
+}
+
+.dropdown {
+    display:inline-block;
+    padding: 15px;
+    position: relative;
+    top: 35px;
+    font-size: 20px;
+    font-family: Tahoma, serif;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.show {display:block;}
+
 
 
 
