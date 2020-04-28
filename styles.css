@@ -8,7 +8,6 @@
 }
 
 .menu{
-
     height: 80px;
     text-align: right;
 }
@@ -19,11 +18,12 @@
     position: relative;
     top: 32px;
     font-family: Tahoma, serif;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .leftside{
-
+    background-color: darkgreen;
+    height: 1200px;
     width: 512px;
     float: left;
 }
@@ -32,11 +32,41 @@
 .main{
 
     width: 512px;
+    height: 1200px;
     float: left;
 }
 
-.rightside{
+.mainportrait{
+    width: 720px;
+    height: 1200px;
+    float: left;
+}
 
+.leftsideportrait{
+
+    height: 1200px;
+    width: 408px;
+    float: left;
+}
+
+.rightsideportrait{
+
+    text-align: right;
+    height: 1200px;
+    width: 408px;
+    float: left;
+}
+
+.mainportrait>a>img{
+    padding-top: 10px;
+    width: 720px;
+    height: 1000px;
+}
+
+.rightside{
+    background-color: blue;
+    text-align: right;
+    height: 1200px;
     width: 512px;
     float: left;
 }
@@ -84,7 +114,7 @@
     position: center;
     text-align: center;
     margin: 0px auto;
-    background-color: blue;
+
     width: 1536px;
     height: 765px;
 }
@@ -102,4 +132,32 @@ h1{
     text-align: center;
 }
 
+.startlogo{
+    max-width: 400px;
+}
+
+.contactmain{
+    background-color: red;
+    text-align: center;
+    width: 512px;
+    height: 1200px;
+    float: left;
+}
+
+.contactmain>img{
+    padding-top: 150px;
+    max-width: 300px;
+}
+
+.contactmain>h1{
+    font-size: 25px;
+}
+
+#email{
+    width: 300px;
+}
+
+#name{
+    width: 300px;
+}
 
