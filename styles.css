@@ -1,7 +1,7 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
 .mainbox{
-    background-color: #cccccc;
+
     width: 1536px;
     height: 1200px;
     margin: 0px auto;
@@ -79,8 +79,27 @@
 }
 
 .startscreen{
+    background-image: url("images/start.png");
+    vertical-align: center;
+    position: center;
+    text-align: center;
     margin: 0px auto;
     background-color: blue;
     width: 1536px;
-    height: 1000px;
+    height: 765px;
 }
+
+.startscreen>a{
+    padding-top: 500px;
+}
+
+.contact{
+    resize: vertical;
+    margin: 200px auto;
+}
+
+h1{
+    text-align: center;
+}
+
+
