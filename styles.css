@@ -1,14 +1,15 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 
 .mainbox{
 
     width: 1536px;
     height: 1200px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 .menu{
-    height: 80px;
+
+    height: 130px;
     text-align: right;
 }
 
@@ -16,14 +17,14 @@
     display:inline;
     padding: 15px;
     position: relative;
-    top: 32px;
+    top: 50px;
     font-family: Tahoma, serif;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .leftside{
-    background-color: darkgreen;
-    height: 1200px;
+
+    height: 1070px;
     width: 512px;
     float: left;
 }
@@ -32,13 +33,13 @@
 .main{
 
     width: 512px;
-    height: 1200px;
+    height: 1070px;
     float: left;
 }
 
 .mainportrait{
     width: 720px;
-    height: 1200px;
+    height: 1070px;
     float: left;
 }
 
@@ -64,7 +65,7 @@
 }
 
 .rightside{
-    background-color: blue;
+
     text-align: right;
     height: 1200px;
     width: 512px;
@@ -75,36 +76,43 @@
     max-width: 160px;
     display: inline;
     position: relative;
-    top: 5px;
+    top: 25px;
     float: left;
     padding-left: 10px;
 }
 
 .leftside>a>img{
+
     max-width: 485px;
     display: block;
     height: 800px;
     padding-left: 25px;
-    padding-bottom: 50px;
+
 }
 
 .main>a>img{
+
     max-width: 485px;
     display: block;
     height: 800px;
     padding-left: 15px;
-    padding-bottom: 50px;
+
 }
 
 .rightside>a>img{
+
     max-width: 485px;
     display: block;
     height: 800px;
     padding-left: 5px;
-    padding-bottom: 50px;
+
 }
 
-.footer{
+footer{
+    text-align: center;
+}
+
+footer>h2{
     text-align: center;
 }
 
@@ -113,14 +121,13 @@
     vertical-align: center;
     position: center;
     text-align: center;
-    margin: 0px auto;
-
+    margin: 0 auto;
     width: 1536px;
     height: 765px;
 }
 
 .startscreen>a{
-    padding-top: 500px;
+    padding-top: 300px;
 }
 
 .contact{
@@ -133,11 +140,12 @@ h1{
 }
 
 .startlogo{
+    padding-top: 250px;
     max-width: 400px;
 }
 
 .contactmain{
-    background-color: red;
+
     text-align: center;
     width: 512px;
     height: 1200px;
@@ -159,5 +167,9 @@ h1{
 
 #name{
     width: 300px;
+}
+
+.main>h1{
+    font-size: 30px;
 }
 
