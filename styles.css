@@ -42,6 +42,14 @@
     float: left;
 }
 
+.rightside{
+
+     text-align: right;
+     height: 1200px;
+     width: 512px;
+     float: left;
+ }
+
 .mainportrait{
 
     width: 720px;
@@ -68,14 +76,6 @@
     padding-top: 10px;
     width: 720px;
     height: 1000px;
-}
-
-.rightside{
-
-    text-align: right;
-    height: 1200px;
-    width: 512px;
-    float: left;
 }
 
 .logo{
@@ -214,10 +214,6 @@ h1{
     font-family: Tahoma, serif;
 }
 
-.dropbtn:hover{
-
-}
-
 .dropdown {
     display:inline-block;
     padding: 15px;
@@ -245,6 +241,30 @@ h1{
 
 .show {display:block;}
 
+.streetleftside{
 
+    height: 1200px;
+    width: 162px;
+    float: left;
+}
+
+.streetmain{
+
+    width: 1212px;
+    height: 1200px;
+    float: left;
+}
+
+.streetrightside{
+
+    text-align: right;
+    height: 1200px;
+    width: 162px;
+    float: left;
+}
+
+.streetmain>img{
+    width: 600px;
+}
 
 
