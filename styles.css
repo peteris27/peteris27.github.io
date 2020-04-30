@@ -18,7 +18,7 @@
     position: relative;
     top: 15px;
     font-family: Tahoma, serif;
-    font-size: 23px;
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -159,8 +159,9 @@ h1{
 }
 
 .contactmain>img{
-    padding-top: 100px;
+    padding-top: 45px;
     max-width: 300px;
+    padding-bottom: 15px;
 }
 
 .contactmain>h1{
@@ -210,7 +211,7 @@ h1{
     border: none;
     background:none;
     outline: none;
-    font-size: 23px;
+    font-size: 15px;
     font-family: Tahoma, serif;
 }
 
@@ -219,7 +220,7 @@ h1{
     padding: 15px;
     position: relative;
     top: 15px;
-    font-size: 20px;
+    font-size: 14px;
     font-family: Tahoma, serif;
 
 }
@@ -263,7 +264,7 @@ h1{
     float: left;
 }
 
-.streetmain>img{
+.streetmain>a>img{
     width: 600px;
 }
 
@@ -289,7 +290,7 @@ h1{
     float: left;
 }
 
-.naturemain>img{
+.naturemain>a>img{
     width: 600px;
 }
 
